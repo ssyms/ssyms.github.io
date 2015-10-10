@@ -21,6 +21,8 @@ div {
     background-image: url("skyline.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: cover;
+    opacity: .6;
 }
 
 #two {
