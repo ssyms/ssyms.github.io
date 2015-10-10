@@ -10,7 +10,7 @@ div {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: aqua;
+	background-image: url('skyline.jpg');
 	opacity: 90%;
 }
 
