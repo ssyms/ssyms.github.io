@@ -70,9 +70,19 @@ div {
 	color: black;
 }
 
-#bio {
+#resume {
 	position: absolute;
 	top: 255%;
+	color: black;
+	text-align: center;
+	width: 100%;
+	font-family: Verdana;
+	font-size: 45;
+}
+
+#work {
+	position: absolute;
+	top: 380%;
 	color: black;
 	text-align: center;
 	width: 100%;
