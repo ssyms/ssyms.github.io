@@ -47,11 +47,13 @@ div {
 	text-align: center;
 	width: 100%;
 }
+
 #title {
-	font-family: "Source Sans Pro";
+	font-family: Verdana;
 	font-size: 80;
 }
+
 #para {
-	font-family: "Source Sans Pro";
+	font-family: Verdana;
 	font-size: 45;
 }
