@@ -14,6 +14,16 @@ div {
 	background-size: contain;
 	opacity: 90%;
 }
+#im {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("path/to/img");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 #two {
 	width: 100%;
