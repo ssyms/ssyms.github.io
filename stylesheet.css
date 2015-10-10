@@ -15,7 +15,7 @@ h1 {
 
 #two {
 	width: 100%;
-	height: 150%;
+	height: 125%;
 	position: absolute;
 	top: 150%;
 	left: 0;
@@ -23,7 +23,7 @@ h1 {
 }
 #three {
     width: 100%;
-    height: 150%;
+    height: 125%;
     position: absolute;
     top: 300%;
     left: 0;
@@ -32,9 +32,17 @@ h1 {
 }
 #four {
     width: 100%;
-    height: 150%;
+    height: 125%;
     position: absolute;
     top: 450%;
     left: 0;
     background-color: white;
+}
+
+#title {
+	position: absolute;
+	top: 20%;
+	color: black;
+	text-align: center;
+	width: 100%;
 }
