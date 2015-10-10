@@ -69,3 +69,13 @@ div {
 	font-size: 80;
 	color: black;
 }
+
+#bio {
+	position: absolute;
+	top: 255%;
+	color: black;
+	text-align: center;
+	width: 100%;
+	font-family: Verdana;
+	font-size: 45;
+}
