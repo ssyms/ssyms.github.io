@@ -11,7 +11,7 @@ div {
 	top: 0;
 	left: 0;
 	background-image: url('skyline.jpg');
-	background-size: contain; 100% 100%;
+	background-size: contain;
 	opacity: 90%;
 }
 
