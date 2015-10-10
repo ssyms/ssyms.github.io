@@ -46,6 +46,8 @@ div {
 	color: black;
 	text-align: center;
 	width: 100%;
+	font-family: Verdana;
+	font-size: 45;
 }
 
 #title {
@@ -53,7 +55,17 @@ div {
 	font-size: 80;
 }
 
-#para {
+#bio {
+	position: absolute;
+	top: 130%;
+	color: black;
+	text-align: center;
+	width: 100%;
 	font-family: Verdana;
 	font-size: 45;
+}
+
+#header {
+	font-size: 80;
+	color: black;
 }
