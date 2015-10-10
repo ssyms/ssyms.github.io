@@ -2,3 +2,7 @@ h1 {
 		color: red;
 		font: serif;
 }
+
+.top-BG {
+	background-color: aqua; width: 100%; height: 100%;
+}
