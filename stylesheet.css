@@ -42,10 +42,18 @@ div {
     background-color: white;
 }
 
-#title {
+#home {
 	position: absolute;
 	top: 20%;
 	color: black;
 	text-align: center;
 	width: 100%;
+}
+#title {
+	font-family: Verdana;
+	font-size: 45px;
+}
+#para {
+	font-family: Verdana;
+	font-size: 18px;
 }
