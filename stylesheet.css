@@ -1,15 +1,33 @@
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
 
 div {
     display: block;
 }
+.fa {
+  color: black;
+}
+.fa:hover {
+    color: white;
+}
 
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-bottom: black;
+  border-style: solid;
+  border-width: 0;
+    border-bottom-width: 2.5px;
+}
 #one {
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	top: 0;
-	opacity: .9;
+	opacity: none;
 }
 #im {
     position: fixed;
@@ -21,7 +39,7 @@ div {
     background-repeat: no-repeat;
     background-size: contain;
     background-size: cover;
-    opacity: .75;
+    opacity: .95;
 }
 
 #two {
@@ -39,7 +57,7 @@ div {
     top: 210%;
     left: 0;
     background-color: green;
-    opacity: .98;
+    opacity: none;
 }
 #four {
     width: 100%;
@@ -53,17 +71,42 @@ div {
 #home {
 	position: absolute;
 	top: 20%;
-	left: 10%;
+	left: 5%;
 	color: black;
 	text-align: left;
 	width: 80%;
-	font-family: Verdana;
-	font-size: 45;
+	font-family: "Montserrat";
+    text-transform: lowercase;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin: 0rem;
+    line-height: 0.0rem;
 }
 
 #title {
-	font-family: Verdana;
-	font-size: 80;
+	font-family: "Montserrat";
+    text-transform: lowercase;
+    font-size: 6rem;
+    letter-spacing: .1rem;
+    margin: 0rem;
+    line-height: 9rem;
+}
+#title-para {
+	font-family: "Montserrat";
+    text-transform: lowercase;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin: 0rem;
+    line-height: 3.0rem;
+}
+
+#contact {
+	font-family: "Montserrat";
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin: 0rem;
+    line-height: 10.0rem;
 }
 
 #bio {
@@ -76,7 +119,7 @@ div {
 	font-size: 45;
 }
 
-#header {
+#header-font {
 	font-size: 80;
 	color: blue;
 }
