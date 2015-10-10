@@ -10,8 +10,6 @@ div {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url('skyline.jpg');
-	background-size: contain;
 	opacity: 90%;
 }
 #im {
@@ -20,7 +18,7 @@ div {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("path/to/img");
+    background-image: url("skyline.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
