@@ -2,6 +2,14 @@
 div {
     display: block;
 }
+
+a {
+	font-color:black;
+	text-decoration: none;
+}
+#name {
+
+}
 .fa {
   color: black;
 }
@@ -20,7 +28,11 @@ div {
   border-bottom: black;
   border-style: solid;
   border-width: 0;
-    border-bottom-width: 2.5px;
+  border-bottom-width: 1px;
+}
+
+#nav {
+	font-color: blue;
 }
 #one {
 	width: 100%;
@@ -35,15 +47,15 @@ div {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("skyline.jpg");
     background-repeat: no-repeat;
+    background-image:url("skyline.jpg");
     background-size: contain;
     background-size: cover;
     opacity: .95;
 }
 
 #two {
-	width: 100%;
+	width: 125%;
 	height: 105%;
 	position: absolute;
 	top: 105%;
@@ -51,8 +63,8 @@ div {
 	background-color: white;
 }
 #three {
-    width: 100%;
-    height: 105%;
+    width: 125%;
+    height: 110%;
     position: absolute;
     top: 210%;
     left: 0;
@@ -60,17 +72,17 @@ div {
     opacity: none;
 }
 #four {
-    width: 100%;
-    height: 105%;
+    width: 125%;
+    height: 100%;
     position: absolute;
-    top: 315%;
+    top: 310%;
     left: 0;
     background-color: white;
 }
 
 #home {
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	left: 5%;
 	color: black;
 	text-align: left;
@@ -80,16 +92,16 @@ div {
     font-size: 2rem;
     letter-spacing: .1rem;
     margin: 0rem;
-    line-height: 0.0rem;
+    line-height: 2.0rem;
 }
 
 #title {
 	font-family: "Montserrat";
     text-transform: lowercase;
-    font-size: 6rem;
+    font-size: 7rem;
     letter-spacing: .1rem;
     margin: 0rem;
-    line-height: 9rem;
+    line-height: 10rem;
 }
 #title-para {
 	font-family: "Montserrat";
@@ -97,7 +109,7 @@ div {
     font-size: 2rem;
     letter-spacing: .1rem;
     margin: 0rem;
-    line-height: 3.0rem;
+    line-height: 1.5rem;
 }
 
 #contact {
@@ -106,29 +118,48 @@ div {
     font-size: 1.5rem;
     letter-spacing: .1rem;
     margin: 0rem;
-    line-height: 10.0rem;
+    line-height: 5rem;
 }
 
 #bio {
 	position: absolute;
-	top: 110%;
+	top: 325%;
+	left: 5%;
 	color: black;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	font-family: Verdana;
 	font-size: 45;
 }
 
 #header-font {
-	font-size: 80;
-	color: blue;
+	font-family: "Montserrat";
+    text-transform: lowercase;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    margin: 0rem;
+    line-height: 0.5rem;
+}
+
+#header-underline {
+	width: 40%;
+    height: 105%;
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    background-color: none;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 1px;
 }
 
 #resume {
 	position: absolute;
-	top: 220%;
+	top: 115%;
+	left: 5%;
 	color: black;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	font-family: Verdana;
 	font-size: 45;
@@ -136,9 +167,10 @@ div {
 
 #work {
 	position: absolute;
-	top: 320%;
+	top: 220%;
+	left: 5%;
 	color: black;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	font-family: Verdana;
 	font-size: 45;
