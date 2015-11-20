@@ -9,7 +9,9 @@ a {
 }
 
 .fa {
-  color: black;
+  color: #FA5568;
+
+    padding-right: 25px;
 }
 .fa:hover {
     color: white;
@@ -31,7 +33,7 @@ a {
   
 }
  .fixed-nav-bar a{
-    color: #383838;
+    color: #FA5568;
     font-family: "Montserrat";
     font-size: 1rem;
     letter-spacing: .1rem;
@@ -39,7 +41,7 @@ a {
     line-height: 3.0rem;
  }
   .fixed-nav-bar a:hover{
-    color: #FA5568;
+    color: #383838;
     font-family: "Montserrat";
     font-size: 1rem;
     letter-spacing: .1rem;
@@ -79,7 +81,6 @@ a {
 #three {
     width: 125%;
     height: 105%;
-    position: fixed;
     top: 210%;
     left: 0;
     opacity: none;
@@ -90,6 +91,8 @@ a {
     background-image:url("milan.jpg");
     background-size: contain;
     background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
 }
 #four {
     width: 125%;
@@ -222,7 +225,8 @@ a {
 }
 
 #im {
-    position: fixed;
+    position: absolute;
+    background-attachment: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -234,17 +238,29 @@ a {
     opacity: .95;
 }
 #im-italy {
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-repeat: no-repeat;
     background-image:url("italy.jpg");
-    background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
+    background-size: contain;
+    background-size: cover;
+    opacity: .95;
 }
 #im-milan {
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-repeat: no-repeat;
     background-image:url("milan.jpg");
-    background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
+    background-size: contain;
+    background-size: cover;
+    opacity: .95;
 }
 
