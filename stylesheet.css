@@ -135,7 +135,7 @@ a {
 }
 #six {
     width: 90%;
-    height: 105%;
+    height: 100%;
     position: absolute;
     top: 525%;
     left: 0;
@@ -279,7 +279,7 @@ a {
 	left: 5%;
 	color: black;
 	text-align: left;
-	width: 90%;
+	width: 100%;
 	font-family: Verdana;
 	font-size: 45;
 }
