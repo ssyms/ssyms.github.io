@@ -93,7 +93,7 @@ a {
 }
 
 #two {
-	width: 125%;
+	width: 90%;
 	height: 105%;
 	position: absolute;
 	top: 105%;
@@ -191,6 +191,33 @@ a {
     line-height: 1.5rem;
 }
 
+#content-title {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin: auto;
+    line-height: 3rem;
+}
+#content-text {
+    padding-top: 1px;
+    font-family: "Lato";
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin: auto;
+    line-height: 2rem;
+    text-decoration: none;
+}
+#content-title2 {
+    padding-top: 1.5px;
+    font-family: "Montserrat", bold;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin: auto;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
 
 #contact {
 	font-family: "Montserrat";
@@ -236,14 +263,14 @@ a {
 }
 
 #resume {
-	position: absolute;
-	top: 15%;
-	left: 5%;
-	color: black;
-	text-align: left;
-	width: 100%;
-	font-family: Verdana;
-	font-size: 45;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: black;
+    text-align: left;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 45;
 }
 
 #work {
@@ -252,7 +279,7 @@ a {
 	left: 5%;
 	color: black;
 	text-align: left;
-	width: 100%;
+	width: 90%;
 	font-family: Verdana;
 	font-size: 45;
 }
