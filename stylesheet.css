@@ -1,11 +1,19 @@
 
 .fa {
-  color: #f56961;
+  color: #333333;
 
   padding-right: 50px;
 }
 .fa:hover {
-  color: #ff9999;
+  color: #f0f8ff;
+}
+
+.description {
+  padding-top: 5%;
+}
+
+.contact {
+  padding-top: 10px;
 }
 
 body {
@@ -16,19 +24,24 @@ body {
 
 h1 {
 	font-family: 'Montserrat', serif;
-    font-size: 18px;
+    font-size: 24px;
     color: #262626;
 
 }
 
-.title {
+h2 {
+  font-family: 'Montserrat', serif;
+    font-size: 16px;
+    color: #262626;
+}
+
+.text {
 	font-family: 'Montserrat', serif;
     font-size: 75px;
+    padding-top: 18%;
 }
 #credit {
 	font-family: 'Montserrat', serif;
 	font-size: 20px;
 	color: white;
 }
-
-
