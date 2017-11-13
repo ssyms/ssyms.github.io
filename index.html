@@ -1,182 +1,352 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset=utf-8 />
-	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Homemade+Apple">
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="ss.ico" />
+  <head>
+  	<meta charset=utf-8 />
+    <title>I'm Sarada Symonds</title>
+  	<link rel="shortcut icon" href="img/favicon.ico" />
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
-	<script src="jquery.localscroll.js" type="text/javascript"></script> 
-	<script src="jquery.scrollTo.js" type="text/javascript"></script> 
-	<script type="text/javascript">
-		$(document).ready(function() {
-   		$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    return false;
-});
-		});
-	</script>
-	<title>Sarada Symonds </title>
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-</head>
-
-<body>
-	<div id="top"></div>
-<nav class="fixed-nav-bar"><div id="nav">
-  <a href="#top" id="logo">Sarada Symonds</a>
-  <a href="#two">work</a>
-  <a href="#four">projects</a>
-  <a href="#six">about me</a>
-</div></nav>
-<div id="black"></div>
-<div id="im"></div>
-<div id="one">
-	<div id="home">
-		<a name="home"></a>
-		<div class="outer">
-		<div class="middle">
-		<div class="inner">
-
-		<div id="title">Sarada Symonds</div>
-		<div id="title-para">driven to code. inspired by heart.</div>
-
-		<div id="contact">Contact Me</div>
-		<a href="https://github.com/ssyms"><i class="fa fa-github-alt fa-3x"></i></a>
-		<a href="mailto:symonds.sarada@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
-		<a href="https://www.linkedin.com/in/saradasymonds"><i class="fa fa-linkedin-square fa-3x"></i></a>
-		<a href="https://twitter.com/saradasymonds"><i class="fa fa-twitter fa-3x"></i></a>
-
-		</div>
-		</div>
-		</div>
-
-</div>
-</div>
+    <!-- JQuery script for automatic scroll -->
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+		<script src="javascripts/ss-javascript.js" type="text/javascript"></script>
 
 
-<div id="two">
-	<a name="resume"></a><div id="resume">
-	<div id="header-font">What I Do</div>
-	<div id="content">
-		<div class="row"><div class="col-md-6"><div id="content-title">ABC: Always Be Coding</div><div id="content-text">Hi, I'm Sarada. I'm currently pursuing a double major in computer engineering and computer science with a minor in Business Administration at Northeastern University in Boston. I started programming my first semester of college, and since then I've been exploring the field of computer science through research, projects (see below), hackathons, and sites like TopCoder and OpenHatch. Over the summer of 2015, I had the opportunity to attend Make School to learn about entrepreneurship and app development. I've also created apps in iOS and Android, and I am currently developing a web application. Due to an interest in security, I've also started reading about and practicing pen testing on Hack This Site.</div>
-		<p> </p>
-		<div id="content-text"><b>Programming Languages: </b> Python (preferred), Swift, C, C++</div>
-		<p> </p>
-		<div id="content-text"><b>Skills:</b> OpenCl, CUDA, Matlab, Microsoft Suite, Adobe Photoshop, InDesign, Solidworks, AutoCAD, Xcode, App Inventor, Parse</div>
+  	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
-		<p></p>
-		<div id="content-text"><b>Relevant Extracurriculars:</b> Northeastern University Computer Architecture Research Lab (Researcher), Embark: Northeastern's Undergradute Engineering Research Journal, Society of Women Engineers (SAC Representative), Enabling Engineering, Engineers without Borders</div>
-		<p> </p>
-		<div id="content-text"><a href="ssresume.pdf" style="color: #f56961; text-decoration: underline;">PDF Version of Resume</a></div></div> 
-		<div class = "col-md-6"><div id="content-title">Experience Highlights</div><div id="content-title2">Nightingale Apps, October 2015-Present</div><div id="content-text">
-		I'm currently working at Nightingale Apps, a Health IT start up who's premier app, Know My Patient, is designed to help nurses. I'm working with the founder of the company to develop a greater social media presence by scheduling posts on various accounts using Hootsuite and conducting research on Health IT social media.</div>
-		<p></p>
-		<div id="content-title2">Tech Team Mentor, September 2015-Present</div><div id="content-text">
-		Working with the Science Club for Girls Tech Team, I helped develop a curriculum that teaches middle and high school girls about programming basics. Using App Inventor, the girls were also able to develop Android applications each week. In 2016, the girls will compete in the Technovation Challenge and develop their own app to address a problem in their area.</div>
-		<p></p>
-	<div id="content-title2">Honors Mentor, September 2015-December 2015</div><div id="content-text">
-		As a Mentor, I oversaw a class of 16 incoming freshmen for a semester. This involved leading class discussions about readings, checking in on assignments, acting as a tour guide for the South End neighborhood, and answering any questions the students had about the Honors experience.</div></div></div>
-<p><br><br>  </p>
-<div class="row"> <div class = "col-md-6"></div>
-		<div class="col-md-6">
-</div></div>
-		</div>
-	</div>
-</div>
+    <!-- CSS stylesheet, font awesome icons, and google fonts -->
+  	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css"/>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald:100,300|Rozha+One" rel="stylesheet">
+  </head>
+  <body>
 
-<div id="three"><div id="im-milan"></div></div>
-</div>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
+      <div class="container-fluid">
 
-<div id="four">
-	<a name="work"></a><div id="work">
-		<div id="header-font" style="color:black; text-deocration:none">what i'm working on</div>
-		<div id="content">
+        <div class="navbar-header">
+          <a href="#home" class="navbar-text" style="color:#eeeeee; text-decoration-color: #5bc0de; font-size: 17px; font-weight: 700;">Sarada Symonds</a>
+        </div>
 
-		<div class="row">
-			<div class="col-md-6">
-					<div id="content-title">VR Monitoring iOS and Web App</div><div id="content-text">Currently, I'm working with a small group to design a product that will help physical therapists monitor the progress of patients remotely, particularly children who use Xbox Kinect games in their therapy. This includes collecting data on heart rates and movement using Arduino sensors and storing that data in Parse. I'm designing an iOS application for patients and a web application for therapists.</div>
-					<p><br></p>
-					<div id="content-title">Parallel Programming Research</div>
-						<div id="content-text">Since 2014, I have been researching parallel computing with a focus on CUDA and OpenCL with the Northeastern University Computer Architecture Research Group (<a style="color: #f56961; text-decoration: underline;" href="http://www.ece.neu.edu/groups/nucar/">NUCAR</a>). Currently, I am optimizing Polybench suite programs and implementing prefetch strategies. I have had the chance to work with and learn from doctoral students Fanny Nina Paravecino and Leiming Yu and principal investigator Prof. David Kaeli.</div>
-						<p><br></p>
-				
-					<div id="content-title">Bites Log</div><div id="content-text">My first app in iOS, Bites Log uses the Foursquare API to find nearby restaurants and allows users to save locations to their phone. They can then email a list of places (including addresses) to friends and family. Over the course of this project, I had the chance to work with JSON objects and the Swift programming language. This app was developed during my summer at Make School in San Francisco. Now available on the <a style="color: #f56961; text-decoration: underline;" href="https://itunes.apple.com/us/app/bites-log/id1037867334?mt=8">App Store</a>.</div>
-				</div>
-			<div class="col-md-6">
-				<img src="bitesshot.jpeg" style="height: 450px; width: 275px; padding-right: 20px;"><img src="bitesemail.jpeg" style="height: 450px; width: 275px;">
-			</div>
-		</div>
-		<div class="row"><p><br></p></div>
-		<div class="row">
-			<div class="col-md-6">
-				<img src="water.png" style="padding-left: 150px; padding-top: 100px;">	
-			</div>
-			<div class="col-md-6">
-				
-				<div id="content-title">Water Distribution System</div>
-					<div id="content-text">I joined the Northeastern chapter of Engineers without Borders my freshman year and started work with the Uganda project, a water distribution system for the town of Bbanda. Last year, I analyzed and researched the viability of a solar powered pump system. This year I have been researching local NGOs and working on fundraising proposals.<p><br></p></div>
-				<div id="content-title">Major Class Projects</div>
-				<div id="content-text"><b>Sumo Robot: </b> Designed a sumo robot using Arduino devices and household items. The robot later came in first in a tournament against 17 other robots.</div>
-		<div id="content-text"><b>WiiMote Controlled Robotic Arm:</b> Using an FPGA and concepts such as PWM, GPIO, and memory mapped IO, programmed a robotic arm to follow the commands of a WiiMote.<p><br></p></div>
+        <ul class="nav navbar-nav">
+          <a href="#about" class="navbar-text" style="color:#eeeeee; text-decoration-color:#5bc0de;">about me</a>
+          <a href="#projects" class="navbar-text" style="color:#eeeeee; text-decoration-color:#5bc0de;">projects</a>
+          <a href="#work" class="navbar-text" style="color:#eeeeee; text-decoration-color:#5bc0de;">work experience</a>
+        </ul>
 
-				<div id="content-title">See More</div><div id="content-text">For the most up-to-date versions of these projects and to see what else I'm working on, please see my <a style="color: #f56961; text-decoration: underline;" href="https://github.com/ssyms">Github</a>. Also feel free to check out what I'm up to on <a style="color: #f56961; text-decoration: underline;" href="https://www.topcoder.com/members/saradasymonds/">TopCoder</a>.</div>
-			</div>
-		</div>
-	</div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><p class="navbar-btn"><a href="resumes/Sarada Symonds Resume - Oct 2017.pdf" class="ss-btn btn-download" download><b>RESUME</b></a></p></li>
+        </ul>
 
-	</div>
-</div>
+      </div>
+    </nav>
 
+    <!-- Homepage Stationary Background-->
+    <div class="ss-fixed-bg home" id="home">
+      <div class="home-text">
+        <div class="title">Sarada Symonds</div>
+        Computer Engineering and Computer Science Major at Northeastern University<br>
+        Available for co-op from July-December 2018<br>
+        Interested in data analytics and cyber security<br>
+    		<div class="contact">Contact Me</div>
+    		<a href="https://github.com/ssyms"><i class="fa fa-github-alt fa-3x"></i></a>
+    		<a href="mailto:symonds.sarada@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+    		<a href="https://www.linkedin.com/in/saradasymonds"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    		<a href="https://twitter.com/saradasymonds"><i class="fa fa-twitter fa-3x" style="padding-right: 0;"></i></a>
+      </div>
+    </div>
 
-<div id="five"><div id="im-italy"></div></div>
+    <div class="ss-scrolling-bg experience" id="about">
+      <div class="container-fluid ss-container">
+        <div class="row subtitle col-md-10 col-md-offset-1">
+          About Me
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+           <div class="col-sm-4">
+             <div class="section">
+              <img src="img/campus.jpg" class="img-responsive section-image">
+               <div class="section-title">
+                 Academics
+               </div>
+                <b>Major in Computer Engineering and Computer Science</b><br>
+               Graduating May 2019<br><br>
+               <b>Honors and Awards:</b> Honors Program Mentor, Global Experience Ambassador,
+                Northeastern University's RISE award in Engineering and Technology,
+                Dean's List, Connections Scholarship, Distil Networks Women in Technology Scholarship,
+                Box Diversity Scholarship semi-finalist, GE Women's Network scholarship,
+                GEO Video scholarship, Pressman Memorial scholarship<br><br>
+                <b>Technical Skills:</b> Python (Django, Scikit, pandas), Javacript (React, Angular2),
+                 C++, Java, Matlab, HTML/CSS, Swift, C, Prolog, Adobe Photoshop, InDesign,
+                Solidworks, AutoCAD, Xcode<br><br>
+                <ul style="text-align: left;">
+                  <li>Society of Women Engineers Publicity Chair, SAC Representative, and Webmaster</li>
+                  <li>NU Collegiate Cyber Defense Competition member</li>
+                  <li>Enabling Engineering member</li>
+                </ul>
+             </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="section">
+              <img src="img/charles.jpg" class="img-responsive section-image">
+               <div class="section-title">
+                 Volunteering
+               </div>
+               <b>Science Club for Girls</b><br>
+               I volunteer at the Science Club for Girls on  their Tech Team
+               program, which teaches girls about programming and entrepreneurship.
+               The participants also compete in Technovation, which
+               challenges girls to develop an app and business model that will
+               address a probelm in their community. During the first year of the
+               program, I helped develop lesson plans and worked with the girls
+               on their apps. Currently, the program is in it's third year, and
+               continues to acecpt returning and new members.
+               <br><br>
 
-<div id="six">
-	<a name="bio"><div id="bio">
-		<div id="header-font"> Who I Am </div>
-		<div id="content">
-		<div class="row"><div class="col-md-6"><div id="content-title">sarada symonds</div>
-		<p></p>
-			<div id="content-text"><b>Hometown: </b> San Rafael, CA</div>
-			<p></p>
-			<div id="content-text"><b>Current Location: </b> Boston, MA</div>
-			<p></p>
-			<div id="content-text"><b>Education: </b> Northeastern University</div>
-			<p></p>
-			<div id="content-text"><b>Awards: </b> Dean's List (Fall 2014, Spring 2015), Connections Scholarship, AP Scholar with Distinction (13 AP courses), Campolindo Journalism Award, Academic Decathlon National Overall Highest Scorer and Scholarship</div>
-			<p></p>
-			<div id="content-title">a little more about me...</div>
-			<div id="content-text"><ul>
-			<li>I participated in a study abroad program in Italy, studying engineering and Italian culture.</li>
-			<p></p>
-			<li>I'm a part of the Northeastern fencing club, NU Blades.</li>
-			<p></p>
-			<li>I'm a huge fan of the Caped Crusader.</li>
-			<p></p>
-			<li>I'm a member of the Honors Book Club. I love mystery books.</li>
-			<p></p>
-			<li>I love art history and have attended several lectures at the Boston Museum of Fine Arts this year.</li>
-			</ul></div>
-		
-		</div> <div class="col-md-6"><div id="image-pos"><div class="circular"></div></div></div></div>
-		</div>
-	</div>
-	</div></a>
-</div>
+               <b>Society of Women Engineers Outreach</b><br>
+               I have been a member of the Society of Women Engineers since my
+               first semester at college, and have volunteered at several outreach
+               events such as the Strides for Breast Cancer Walk and the Habitat for Humanity ReStore Day.
+               In my sophomore year, I organized Northeastern University’s Women in
+               Engineering Day, which introduced high school girls to various facets
+               of engineering through panels and activities and was attended by over 100 people.
 
+             </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="section">
+              <img src="img/comparch.jpg" class="img-responsive section-image">
+               <div class="section-title">
+                Research
+               </div>
+               Since my first semester at college, I've been engaged with research on campus.
+               My freshmen and sophomore years I worked with the Northeastern University Computer
+               Architecture Lab developing benchmarks for CUDA, OpenCL, and OpenMP.
+               At the end of my sophomore year, I worked with PhD students in the College
+               of Computer and Information Science
+               to test and develop a demo for Hyperdrive, a cloud testbed to support research
+               on attacks and mitigations on cloud systems, for which I received a
+               <a href="http://ieeexplore.ieee.org/document/7943500/">publication
+               credit</a>. I also received a RISE (Research, Innovation, Scholarship, and
+               Entrepreneurship) Award for my work with Enabling Engineering on developing a wearable
+               device that will enable therapists to monitor their clients' remote physical therapy.
+               <br><br>
+               <b>Writing:</b> I've also written several technical and non-technical blog posts for various online
+               platforms, including the Yeti
+               <a href="https://yeti.co/author/sarada/">blog</a>, the College of Engineering
+               <a href="https://www.coe.neu.edu/blog/you-didn%E2%80%99t-start-programming-until-college-let%E2%80%99s-change">
+                blog</a>, and Trinity College Dublin's International Student
+               <a href="https://tcdglobal.wordpress.com/2017/05/09/studying-abroad-in-a-technical-field/">
+                  blog</a>.
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
 
+    <!-- Homepage Stationary Background-->
+    <div class="ss-fixed-bg general" id="projects">
+      <div class="container-fluid ss-container">
+        <div class="row subtitle" style="padding-bottom: 32px;">
+          Featured Projects
+        </div>
+        <div class="row is-flex">
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/connect4.jpg" class="img-responsive section-image">
+                <div class="project-title">Connect Four with Minimax</div>
+                <p>I created a human vs computer Connect Four game in React, and implemented
+                  a Minimax algorithm to choose the computer's next move. The algorithm
+                  uses a ratings function to assign a score to a column and looks several
+                  turns ahead to predict the best move. The most challenging part was
+                  part was finding the balance between minimizing threats
+                  (the human player wins) and maximizing potential wins.
+                </p>
+                <a href="http://saradasymonds.com/connect-four-react/" class="ss-btn btn-project">See the project page</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/webproxy.jpg" class="img-responsive section-image">
+                <div class="project-title">Simple Web Proxy</div>
+                <p>This is a simple web proxy created using Flask-socketio
+                  and threading. It allows users to monitor requests and block URLs.
+                  Proxies are used to provide additional security and provacy
+                  to internet users, although they are used for illegal
+                  purposes as well. This project was a great way to learn more about
+                  OSI layers as well as tools like virtualenv, pip, Flask, and threading.
+                </p>
+                <a href="https://github.com/ssyms/simple-web-proxy" class="ss-btn btn-project">See it on Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/exonerations.jpg" class="img-responsive section-image">
+                <div class="project-title">Exoneration Data Exploration</div>
+                <p>Due to the hard work of non-profits and new forensic techniques,
+                  each year dozens of innocent men and women have their convictions reversed
+                  and are released from prison. There are many reasons an individual may not get
+                  a fair trail, including an inadequate defense, flawed forensic evidence, mistaken
+                  witness testimony, and police misconduct. This Jupyter notebook
+                   uses pandas and plot.ly to conduct a data exploration of the context
+                  in which exonerations take place.
+                </p>
+                <a href="https://github.com/ssyms/exonerations-data/blob/master/exoneration_nb.ipynb" class="ss-btn btn-project">See the Jupyter notebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row is-flex">
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/rise awards.jpg" class="img-responsive section-image">
+                <div class="project-title">Project W.H.A.M.</div>
+                <p>Working with Enabling Engineering and the Regame Laboratory,
+                  our team has been developing a wearable that connects with an iOS
+                  application to monitor remote physical therapy for chidren with cerebral palsy.
+                  The goal is to "gamify" the physical therapy to encourage participation. The
+                  app also connects with an online database that therapists can access
+                  to study their clients' progress. This project won the Research,
+                  Innovation, Scholarship, and Entrepreneurship Award in Undergraduate Engineering.
+                </p>
+                <a href="http://www.northeastern.edu/regamevrlab/current-projects/" class="ss-btn btn-project">See the project page</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/rdio.jpg" class="img-responsive section-image">
+                <div class="project-title">RDIO</div>
+                <p>This project was created at the first Husky Hacks (also my own
+                  first hackathon). Our group developed an internet radio station
+                  using Icecast that would allow users to broadcast music live over the
+                  internet, allowing friends to listen to music together even
+                  if they were across the country. We looked at many different tools
+                  before selecting Icecast, a streaming music server. Much of the project
+                  was spent on research, connecting to the server, and developing a frontend.
+                </p>
+                <a href="https://github.com/ssyms/infrared-radio" class="ss-btn btn-project">See it on Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="box">
+              <div class="project">
+                <img src="img/bitesapp.png" class="img-responsive section-image">
+                <div class="project-title">Bites App</div>
+                <p>Made the summer after my freshman year of college, Bites was my
+                  first major project outside of class. The goal was to create an iOS
+                  app that would allow users to search nearby restaraunts, select a few,
+                  and email or text them to their friends. It uses Foursquare's API
+                  to find nearby restaraunts and parses information on price range,
+                  food category, and ratings from the JSON response. While very simple, it was my first time
+                  using Github, working in iOS and Swift, working with APIs and JSON,
+                  and generally programming on my own.
+                </p>
+                <a href="https://github.com/ssyms/Recommendations-iOS-App" class="ss-btn btn-project">See is on Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-</body>
+    <div class="ss-fixed-bg projects" id="work">
+      <div class="container-fluid ss-container">
+        <div class="row subtitle" style="padding-bottom: 32px;">
+          Work Experience
+        </div>
+        <div class="row justify-content-center work-row">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="img/llab.jpg" class="img-responsive section-image">
+          </div>
+          <div class="col-sm-5">
+            <div class="work-section">
+              <div class="work-title">
+                Lincoln Laboratory
+              </div>
+              <div class="work-subtitle">
+                <b>Computer Engineering Co-op, Fall 2017</b>
+              </div>
+              Currently working at MIT Lincoln Laboratory.
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center work-row">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="img/yeti.jpg" class="img-responsive section-image">
+          </div>
+          <div class="col-sm-5">
+            <div class="work-section">
+              <div class="work-title">
+                Yeti LLC
+              </div>
+              <div class="work-subtitle">
+                <b>Software Developer Co-op, Fall 2016</b>
+              </div>
+              Yeti is a software design and development firm in San Francisco. During my time there,
+              I worked on developing hardware and software prototypes. I also wrote
+              several blog posts and worked with clients to deliver new features and updates
+              to various products.
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center work-row">
+          <div class="col-sm-3 col-sm-offset-2">
+            <img src="img/nuccis.jpg" class="img-responsive section-image">
+          </div>
+          <div class="col-sm-5">
+            <div class="work-section">
+              <div class="work-title">
+                NU CCIS, Cloud Security
+              </div>
+              <div class="work-subtitle">
+                <b>Assistant Researcher, Spring + Summer 2016</b>
+              </div>
+              I worked with PhD students in the College
+              of Computer and Information Science to test and develop a demo for
+              Hyperdrive, a cloud testbed to support research on attacks and mitigations on cloud systems.
+            </div>
+          </div>
+        </div>
+        <div class="publications">
+          <div class="row publications-subtitle" style="padding-bottom: 16px;">
+            <div class="col-sm-8 col-sm-offset-2">
+              Publications
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-8 col-sm-offset-2 work">
+              <b style="color:#333333">Hyperdrive: A flexible cloud testbed for research and education</b><br>
+               Amirali Sanatinia, Sanket Deshpande, Apoorv Munshi, Daniel Kohlbrenner, Michael Yessaillian, Sarada Symonds, Agnes Chan, Guevara Noubir<br>
+               <div class="pub">January 2017, IEEE International Symposium on Technologies for Homeland Security</div>
+              <a href="http://ieeexplore.ieee.org/document/7943500/">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ss-fixed-bg end-contact-section">
+      <div class="end-conact-el">
+        <div class="row end-contact" style="padding-bottom: 32px;">
+          Let's get in touch
+        </div>
+        <div>
+          <a href="https://github.com/ssyms" style="padding-left: 50px;"><i class="fa fa-github-alt fa-4x"></i></a>
+          <a href="mailto:symonds.sarada@gmail.com"><i class="fa fa-envelope fa-4x"></i></a>
+          <a href="https://www.linkedin.com/in/saradasymonds"><i class="fa fa-linkedin-square fa-4x"></i></a>
+          <a href="https://twitter.com/saradasymonds"><i class="fa fa-twitter fa-4x"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
