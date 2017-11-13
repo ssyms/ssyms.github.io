@@ -1,0 +1,357 @@
+
+body, html, main {
+	height: 100%;
+}
+
+.navbar-text {
+  font-family: "Oswald", sans-serif;
+  color: #f8f8f8;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: .15rem;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.ss-btn {
+	display: inline-block;
+  padding: 6px 25px;
+  margin-bottom: 0;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	font-family: "Montserrat", sans-serif;
+}
+
+.btn-download, .btn-download:active, .btn-download:focus {
+  background-image: none;
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: #ffa500;
+  color: #ffa500;
+	text-decoration: none;
+}
+
+.btn-download:hover {
+  color: #5bc0de;
+  border-color: #5bc0de;
+  text-decoration: none;
+}
+
+.ss-fixed-bg {
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.ss-fixed-bg.home {
+  position: relative;
+	background-repeat: repeat;
+  background-image: url("../img/congruent_outline.png");
+}
+.ss-fixed-bg.general {
+  background-repeat: repeat;
+  background-image: url("../img/zebra.png");
+}
+
+.ss-fixed-bg.end-contact-section {
+  background-repeat: repeat;
+  background-image: url("../img/zebra.png");
+}
+
+.ss-scrolling-bg {
+	min-height: 100%;
+	background-color: #fbfbfb;
+	position: relative;
+}
+
+.home-text {
+  font-family: "Oswald", sans-serif;
+  color: #eeeeee;
+  font-size: 28px;
+  font-weight: 100;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 100%;
+
+ }
+
+.title {
+  font-family: 'Rozha One', serif;
+  font-size: 108px;
+  letter-spacing: .1rem;
+}
+
+.contact {
+    font-size: 42px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.fa {
+  color: #5bc0de;
+  padding-right: 50px;
+}
+
+.fa:hover {
+  color: #ffa500;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.subtitle {
+  font-family: "Oswald", sans-serif;
+  color: #333333;
+  font-size: 48px;
+  font-weight: 100;
+	letter-spacing: .1rem;
+	padding-top: 32px;
+	text-align: center;
+ }
+
+ .subtitle:before, .subtitle:after {
+  content: "";
+  display: inline-block;
+  width: 10%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+
+.subtitle:after {
+  margin: 0 -55% 0 .5em;
+}
+
+ .ss-container {
+	 padding: 0 100px 0 100px;
+ }
+
+ .section {
+	 font-family: "Monstserrat", sans-serif;
+	 color:  #848484;
+	 font-size: 16px;
+	 text-align: center;
+	 margin: 20px;
+	 margin-bottom: 55px;
+	 padding: 20px;
+	 height: 100%;
+ }
+
+ .section b {
+	 color: #333333;
+ }
+
+ .section a {
+	 text-decoration: underline;
+	 color: #5bc0de;
+ }
+
+ .section a:hover {
+	color: #428bca;
+ }
+
+ .section-title {
+	 font-family: "Oswald", sans-serif;
+	 font-size: 28px;
+	 font-weight: 700;
+	 margin-bottom: 10px;
+	 margin-top: 15px;
+	 color:  #333333;
+ }
+
+ .section-image {
+	 width: 100%;
+	 overflow: hidden;
+	 border-radius: 10px;
+	 margin-top: 5px;
+ }
+
+ .row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+	padding: 0 20px 45px 20px;
+}
+
+.row.is-flex.subtitle {
+	padding: 32px 0 32px 32px;
+}
+
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+	margin-bottom: 10px;
+}
+
+
+.is-flex .box {
+  background: #fbfbfb;
+  position: static;
+	height: 100%;
+	border-radius: 10px;
+	max-width: 450px;
+  margin: 0 auto;
+}
+.is-flex [class*="col-"] {
+}
+
+.project {
+	height: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 0 5px 0 5px;
+ 	font-family: "Monstserrat", sans-serif;
+ 	color:  #848484;
+ 	font-size: 16px;
+ 	text-align: center;
+	position: relative;
+}
+
+.project p {
+	text-align: left;
+	margin-bottom: 65px;
+}
+
+.project-title {
+	font-family: "Oswald", sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: left;
+	color:  #333333;
+}
+
+.btn-project {
+  background-image: none;
+	min-width: 200px;
+  border-radius: 5px;
+  background-color: transparent;
+	border-color: 	#5bc0de;
+	border-style: solid;
+  color: 	#5bc0de;
+	border-width: 2px;
+	font-size: 14px;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-project:hover {
+	color: #428bca;
+	border-color: #428bca;
+	text-decoration: none;
+}
+
+.work-row {
+	margin-bottom: 42px;
+}
+
+.work-title {
+	font-family: "Oswald", sans-serif;
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-align: left;
+	letter-spacing: .1rem;
+  color: 	#5bc0de;
+}
+
+
+.work-subtitle {
+ 	font-family: "Monstserrat", sans-serif;
+ 	color:	#5cb85c;
+ 	font-size: 18px;
+ 	text-align: left;
+	margin-bottom: 10px;
+}
+
+.work-section {
+ 	font-family: "Monstserrat", sans-serif;
+ 	color: #848484;
+ 	font-size: 16px;
+ 	text-align: left;
+}
+
+.end-contact-section {
+  position: relative;
+}
+.end-conact-el {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.end-contact {
+	font-family: "Oswald", sans-serif;
+	color: #333333;
+	font-size: 28px;
+	font-weight: 100;
+	letter-spacing: .1rem;
+	padding-top: 32px;
+	text-align: center;
+}
+
+.end-contact:before, .end-contact:after {
+ content: "";
+ display: inline-block;
+ width: 10%;
+ margin: 0 .5em 0 -55%;
+ vertical-align: middle;
+ border-bottom: 1px solid;
+}
+
+.end-contact:after {
+ margin: 0 -55% 0 .5em;
+}
+
+.publications {
+	font-family: "Montserrat", sans-serif;
+	color: #848484;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: left;
+	padding-bottom: 48px;
+
+}
+
+.publications-subtitle {
+	font-family: "Oswald", sans-serif;
+	color: #333333;
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 22px;
+	letter-spacing: .1rem;
+	text-align: left;
+}
+
+.pub {
+	font-family: "Montserrat", sans-serif;
+	color: #848484;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+}
