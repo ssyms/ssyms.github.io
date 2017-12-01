@@ -355,3 +355,83 @@ body, html, main {
 	font-weight: 700;
 	text-align: left;
 }
+
+@media only screen and (max-width: 575px) {
+	.publications-subtitle {
+		font-size: 32px;
+	}
+
+	.work {
+		font-size: 24px;
+	}
+
+	.work-title {
+		font-size: 36px;
+	}
+
+	.work-subtitle {
+		font-size: 24px;
+	}
+
+	.section-title {
+		font-size: 36px;
+	}
+
+	.section {
+			font-size: 24px;
+	}
+
+	.project {
+		font-size: 24px;
+	}
+
+	.btn-project {
+		font-size: 18px;
+	}
+
+	.work-section {
+		font-size: 24px;
+	}
+
+	.pub {
+		font-size: 24px;
+	}
+
+	.end-contact {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+    .ss-container {
+        padding: 0;
+    }
+
+		.row.is-flex {
+			padding: 0;
+			display: block;
+		}
+
+		.work-row {
+			margin: 25px;
+		}
+
+		.section {
+			margin-bottom: 15px;
+		}
+
+		.publications-subtitle {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		.work {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+
+		.row.is-flex > [class*='col-'] {
+			margin-bottom: 25px;
+		}
+
+}
