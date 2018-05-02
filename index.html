@@ -22,7 +22,7 @@
   <body>
 
     <!-- Navigation bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
+    <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm">
       <div class="container-fluid">
 
         <div class="navbar-header">
@@ -41,7 +41,6 @@
 
       </div>
     </nav>
-
     <!-- Homepage Stationary Background-->
     <div class="ss-fixed-bg home" id="home">
       <div class="home-text">
@@ -53,7 +52,9 @@
     		<a href="https://github.com/ssyms"><i class="fa fa-github-alt fa-3x"></i></a>
     		<a href="mailto:symonds.sarada@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
     		<a href="https://www.linkedin.com/in/saradasymonds"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    		<a href="https://twitter.com/saradasymonds"><i class="fa fa-twitter fa-3x" style="padding-right: 0;"></i></a>
+    		<a href="https://twitter.com/saradasymonds"><i class="fa fa-twitter fa-3x" style="padding-right: 0;"></i></a><br>
+        <a href="resumes/Sarada Symonds Resume - November 2017.pdf" class="ss-btn btn-download visible-sm" style="font-size:54px; width:316px; margin: auto; margin-top: 50px" download><b>RESUME</b></a>
+        <a href="resumes/Sarada Symonds Resume - November 2017.pdf" class="ss-btn btn-download visible-xs" style="font-size:18px; width:216px; margin: auto; margin-top: 50px" download><b>RESUME</b></a>
       </div>
     </div>
 
@@ -156,6 +157,22 @@
           <div class="col-md-4 col-sm-12">
             <div class="box">
               <div class="project">
+                <img src="img/insight.jpg" class="img-responsive section-image">
+                <div class="project-title">Insight Tweets</div>
+                <p>This project was created with a team as part of the SheHacks Hackathon in January 2018.
+                  We created a Node.js/Express web app that analyzes a user's Twitter history to develop
+                  a career personality profile using IBM's Watson API. The results of the profile
+                  are displayed using animated charts from the D3js and Chartist libraries.
+                  The app is <a href="https://immense-cliffs-43741.herokuapp.com">currently hosted on Heroku.</a><br><br>
+                  <i class="fa fa-star" style="color: #ffd700; padding-right: 0px"></i> SheHacks Equality Award 2018
+                </p>
+                <a href="https://github.com/ssyms/InsightTweets" class="ss-btn btn-project">See it on Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="box">
+              <div class="project">
                 <img src="img/connect4.jpg" class="img-responsive section-image">
                 <div class="project-title">Connect Four with Minimax</div>
                 <p>I created a human vs computer Connect Four game in React, and implemented
@@ -185,42 +202,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="box">
-              <div class="project">
-                <img src="img/exonerations.jpg" class="img-responsive section-image">
-                <div class="project-title">Exoneration Data Exploration</div>
-                <p>Due to the hard work of non-profits and new forensic techniques,
-                  each year dozens of innocent men and women have their convictions reversed
-                  and are released from prison. There are many reasons an individual may not get
-                  a fair trail, including an inadequate defense, flawed forensic evidence, mistaken
-                  witness testimony, and police misconduct. This Jupyter notebook
-                   uses pandas and plot.ly to conduct a data exploration of the context
-                  in which exonerations take place.
-                </p>
-                <a href="https://github.com/ssyms/exonerations-data/blob/master/exoneration_nb.ipynb" class="ss-btn btn-project">See the Jupyter notebook</a>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="row is-flex justify-content-center">
-          <div class="col-md-4 col-12-sm">
-            <div class="box">
-              <div class="project">
-                <img src="img/rise awards.jpg" class="img-responsive section-image">
-                <div class="project-title">Project W.H.A.M.</div>
-                <p>Working with Enabling Engineering and the Regame Laboratory,
-                  our team has been developing a wearable that connects with an iOS
-                  application to monitor remote physical therapy for chidren with cerebral palsy.
-                  The goal is to "gamify" the physical therapy to encourage participation. The
-                  app also connects with an online database that therapists can access
-                  to study their clients' progress. This project won the Research,
-                  Innovation, Scholarship, and Entrepreneurship Award in Undergraduate Engineering.
-                </p>
-                <a href="http://www.northeastern.edu/regamevrlab/current-projects/" class="ss-btn btn-project">See the project page</a>
-              </div>
-            </div>
-          </div>
           <div class="col-md-4 col-sm-12">
             <div class="box">
               <div class="project">
@@ -241,18 +224,34 @@
           <div class="col-md-4 col-sm-12">
             <div class="box">
               <div class="project">
-                <img src="img/bitesapp.png" class="img-responsive section-image">
-                <div class="project-title">Bites App</div>
-                <p>Made the summer after my freshman year of college, Bites was my
-                  first major project outside of class. The goal was to create an iOS
-                  app that would allow users to search nearby restaraunts, select a few,
-                  and email or text them to their friends. It uses Foursquare's API
-                  to find nearby restaraunts and parses information on price range,
-                  food category, and ratings from the JSON response. While very simple, it was my first time
-                  using Github, working in iOS and Swift, working with APIs and JSON,
-                  and generally programming on my own.
+                <img src="img/exonerations.jpg" class="img-responsive section-image">
+                <div class="project-title">Exoneration Data Exploration</div>
+                <p>Due to the hard work of non-profits and new forensic techniques,
+                  each year dozens of innocent men and women have their convictions reversed
+                  and are released from prison. There are many reasons an individual may not get
+                  a fair trail, including an inadequate defense, flawed forensic evidence, mistaken
+                  witness testimony, and police misconduct. This Jupyter notebook
+                   uses pandas and plot.ly to conduct a data exploration of the context
+                  in which exonerations take place.
                 </p>
-                <a href="https://github.com/ssyms/Recommendations-iOS-App" class="ss-btn btn-project">See is on Github</a>
+                <a href="https://github.com/ssyms/exonerations-data/blob/master/exoneration_nb.ipynb" class="ss-btn btn-project">See the Jupyter notebook</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12-sm">
+            <div class="box">
+              <div class="project">
+                <img src="img/rise awards.jpg" class="img-responsive section-image">
+                <div class="project-title">Project W.H.A.M.</div>
+                <p>Working with Enabling Engineering and the Regame Laboratory,
+                  our team has been developing a wearable that connects with an iOS
+                  application to monitor remote physical therapy for chidren with cerebral palsy.
+                  The goal is to "gamify" the physical therapy to encourage participation. The
+                  app also connects with an online database that therapists can access
+                  to study their clients' progress. <br><br>
+                  <i class="fa fa-star" style="color: #ffd700; padding-right: 0px"></i> RISE Award in Engineering
+                </p>
+                <a href="http://www.northeastern.edu/regamevrlab/current-projects/" class="ss-btn btn-project">See the project page</a>
               </div>
             </div>
           </div>
@@ -265,74 +264,155 @@
         <div class="row subtitle" style="padding-bottom: 32px;">
           Work Experience
         </div>
-        <div class="row justify-content-center work-row">
-          <div class="col-sm-3 col-sm-offset-2">
-            <img src="img/llab.jpg" class="img-responsive section-image">
+        <div class="hidden-sm hidden-xs">
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-3 col-sm-offset-2">
+              <img src="img/llab.jpg" class="img-responsive section-image">
+            </div>
+            <div class="col-sm-5">
+              <div class="work-section">
+                <div class="work-title">
+                  Lincoln Laboratory
+                </div>
+                <div class="work-subtitle">
+                  <b>Computer Engineering Co-op, Fall 2017</b>
+                </div>
+                I worked in the Embedded and Open Systems group at MIT Lincoln Laboratory
+                developing new technologies. My assignments mainly required me to work
+                with JavaScript, Bash, and SQL.
+              </div>
+            </div>
           </div>
-          <div class="col-sm-5">
-            <div class="work-section">
-              <div class="work-title">
-                Lincoln Laboratory
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-3 col-sm-offset-2">
+              <img src="img/yeti.jpg" class="img-responsive section-image">
+            </div>
+            <div class="col-sm-5">
+              <div class="work-section">
+                <div class="work-title">
+                  Yeti LLC
+                </div>
+                <div class="work-subtitle">
+                  <b>Software Developer Co-op, Fall 2016</b>
+                </div>
+                Yeti is a software design and development firm in San Francisco. During my time there,
+                I worked on developing hardware and software prototypes. I also wrote
+                several blog posts and worked with clients to deliver new features and updates
+                to various products.
               </div>
-              <div class="work-subtitle">
-                <b>Computer Engineering Co-op, Fall 2017</b>
+            </div>
+          </div>
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-3 col-sm-offset-2">
+              <img src="img/nuccis.jpg" class="img-responsive section-image">
+            </div>
+            <div class="col-sm-5">
+              <div class="work-section">
+                <div class="work-title">
+                  NU CCIS, Cloud Security
+                </div>
+                <div class="work-subtitle">
+                  <b>Assistant Researcher, Spring + Summer 2016</b>
+                </div>
+                I worked with PhD students in the College
+                of Computer and Information Science to test and develop a demo for
+                Hyperdrive, a cloud testbed to support research on attacks and mitigations on cloud systems.
               </div>
-              Currently working at MIT Lincoln Laboratory.
+            </div>
+          </div>
+          <div class="publications">
+            <div class="row justify-content-center publications-subtitle" style="padding-bottom: 16px;">
+              <div class="col-sm-8 col-sm-offset-2">
+                Publications
+              </div>
+            </div>
+            <div class="row justify-content-center" style="margin: 0 20px 0 20px;">
+              <div class="col-sm-8 col-sm-offset-2 work">
+                <b style="color:#333333">Hyperdrive: A flexible cloud testbed for research and education</b><br>
+                 Amirali Sanatinia, Sanket Deshpande, Apoorv Munshi, Daniel Kohlbrenner, Michael Yessaillian, Sarada Symonds, Agnes Chan, Guevara Noubir<br>
+                 <div class="pub">January 2017, IEEE International Symposium on Technologies for Homeland Security</div>
+                <a href="http://ieeexplore.ieee.org/document/7943500/">Link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center work-row">
-          <div class="col-sm-3 col-sm-offset-2">
-            <img src="img/yeti.jpg" class="img-responsive section-image">
+        <div class="visible-sm visible-xs">
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img src="img/llab.jpg" class="img-responsive section-image">
+            </div>
           </div>
-          <div class="col-sm-5">
-            <div class="work-section">
-              <div class="work-title">
-                Yeti LLC
+          <div class="row justify-content-center work-row" style="margin-bottom:50px">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="work-section">
+                <div class="work-title">
+                  Lincoln Laboratory
+                </div>
+                <div class="work-subtitle">
+                  <b>Computer Engineering Co-op, Fall 2017</b>
+                </div>
+                Currently working at MIT Lincoln Laboratory.
               </div>
-              <div class="work-subtitle">
-                <b>Software Developer Co-op, Fall 2016</b>
+            </div>
+          </div>
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img src="img/yeti.jpg" class="img-responsive section-image">
+            </div>
+          </div>
+          <div class="row justify-content-center work-row" style="margin-bottom:50px">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="work-section">
+                <div class="work-title">
+                  Yeti LLC
+                </div>
+                <div class="work-subtitle">
+                  <b>Software Developer Co-op, Fall 2016</b>
+                </div>
+                Yeti is a software design and development firm in San Francisco. During my time there,
+                I worked on developing hardware and software prototypes. I also wrote
+                several blog posts and worked with clients to deliver new features and updates
+                to various products.
               </div>
-              Yeti is a software design and development firm in San Francisco. During my time there,
-              I worked on developing hardware and software prototypes. I also wrote
-              several blog posts and worked with clients to deliver new features and updates
-              to various products.
+            </div>
+          </div>
+          <div class="row justify-content-center work-row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img src="img/nuccis.jpg" class="img-responsive section-image">
+            </div>
+          </div>
+          <div class="row justify-content-center work-row" style="margin-bottom:50px">
+            <div class="col-sm-10 col-sm-offset-1">
+              <div class="work-section">
+                <div class="work-title">
+                  NU CCIS, Cloud Security
+                </div>
+                <div class="work-subtitle">
+                  <b>Assistant Researcher, Spring + Summer 2016</b>
+                </div>
+                I worked with PhD students in the College
+                of Computer and Information Science to test and develop a demo for
+                Hyperdrive, a cloud testbed to support research on attacks and mitigations on cloud systems.
+              </div>
+            </div>
+          </div>
+          <div class="publications">
+            <div class="row justify-content-center publications-subtitle" style="padding-bottom: 16px;">
+              <div class="col-sm-10 col-sm-offset-1">
+                Publications
+              </div>
+            </div>
+            <div class="row justify-content-center" style="margin: 0 20px 0 20px;">
+              <div class="col-sm-10 col-sm-offset-1 work">
+                <b style="color:#333333">Hyperdrive: A flexible cloud testbed for research and education</b><br>
+                 Amirali Sanatinia, Sanket Deshpande, Apoorv Munshi, Daniel Kohlbrenner, Michael Yessaillian, Sarada Symonds, Agnes Chan, Guevara Noubir<br>
+                 <div class="pub">January 2017, IEEE International Symposium on Technologies for Homeland Security</div>
+                <a href="http://ieeexplore.ieee.org/document/7943500/">Link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center work-row">
-          <div class="col-sm-3 col-sm-offset-2">
-            <img src="img/nuccis.jpg" class="img-responsive section-image">
-          </div>
-          <div class="col-sm-5">
-            <div class="work-section">
-              <div class="work-title">
-                NU CCIS, Cloud Security
-              </div>
-              <div class="work-subtitle">
-                <b>Assistant Researcher, Spring + Summer 2016</b>
-              </div>
-              I worked with PhD students in the College
-              of Computer and Information Science to test and develop a demo for
-              Hyperdrive, a cloud testbed to support research on attacks and mitigations on cloud systems.
-            </div>
-          </div>
-        </div>
-        <div class="publications">
-          <div class="row justify-content-center publications-subtitle" style="padding-bottom: 16px;">
-            <div class="col-sm-8 col-sm-offset-2">
-              Publications
-            </div>
-          </div>
-          <div class="row justify-content-center" style="margin: 0 20px 0 20px;">
-            <div class="col-sm-8 col-sm-offset-2 work">
-              <b style="color:#333333">Hyperdrive: A flexible cloud testbed for research and education</b><br>
-               Amirali Sanatinia, Sanket Deshpande, Apoorv Munshi, Daniel Kohlbrenner, Michael Yessaillian, Sarada Symonds, Agnes Chan, Guevara Noubir<br>
-               <div class="pub">January 2017, IEEE International Symposium on Technologies for Homeland Security</div>
-              <a href="http://ieeexplore.ieee.org/document/7943500/">Link</a>
-            </div>
-          </div>
-        </div>
+
 
         <div class="top-scroll visible-sm visible-xs">
           <a href="#home" ><div class="top-text">Top</div></a>

@@ -419,16 +419,16 @@ body, html, main {
   and (-webkit-min-device-pixel-ratio: 3)   {
 
 	.title {
-		font-size: 104px;
+		font-size: 196px;
 	}
 
 	.home-text {
-    font-size: 38px;
+    font-size: 48px;
     padding: 15px;
 	}
 
 	.contact {
-    font-size: 54px;
+    font-size: 64px;
 	}
 
 	.subtitle {
@@ -501,12 +501,11 @@ body, html, main {
     }
 
 		.row.is-flex {
-			padding: 0;
 			display: block;
 		}
 
 		.work-row {
-			margin: 25px;
+			margin: 0px;
 		}
 
 		.section {
@@ -523,6 +522,6 @@ body, html, main {
 		}
 
 		.is-flex .box {
-			max-width: 600px;
+			max-width: 800px;
 		}
 }
