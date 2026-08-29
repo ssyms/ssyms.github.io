@@ -13,17 +13,19 @@ layout: default
   </header>
 
   <p class="bio">
-    I'm a security engineer with a background spanning application security,
-    cloud infrastructure, and building out security programs from the
-    ground up. I care most about making secure practices easy to adopt
+    I'm a security engineer with a background in securing applications,
+    hardening cloud infrastructure, and building security programs from
+    the ground up. I care most about making secure practices easy to adopt
     &mdash; good tooling, sane defaults, and processes that scale without
     becoming a bottleneck for other engineers.
   </p>
 
   <p class="bio">
     I grew up in the North Bay and am based in the Bay Area now. I studied
-    Computer Engineering and Computer Science at Northeastern University,
-    and outside of work I'm usually reading or playing volleyball.
+    Computer Engineering and Computer Science at Northeastern University.
+    Outside of work, I'm usually reading or playing volleyball. I'm also a
+    regular at security meetups around San Francisco &mdash; feel free to
+    say hi if we cross paths.
   </p>
 
   <p class="bio">
